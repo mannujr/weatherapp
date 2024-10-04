@@ -25,6 +25,7 @@ body{
   transform: translate(-50%, -50%);
 }
 
+
 h1{
  text-align: center;
  color: aliceblue;
@@ -70,7 +71,18 @@ form button:hover{
   border-radius: 10px;
   border-image: linear-gradient(to right, #3acfd5 0%, #3b4fd6 100%) 1;
   border: 2px solid rgb(103, 184, 255);
+  position: relative;
 }
+
+.loading{
+  width: 250px;
+}
+
+.hidden{
+  display: none;
+  width: 100%;
+}
+
 
 h2, h3{
   color: #3b4fd6;
